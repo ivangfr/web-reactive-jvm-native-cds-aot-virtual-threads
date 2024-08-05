@@ -3,7 +3,6 @@
 JAVA_VERSION=21
 SPRING_BOOT_VERSION=3.3.2
 
-echo
 echo "-----------------------------"
 echo "SPRING-BOOT-GREETINGS-API-WEB"
 echo "-----------------------------"
