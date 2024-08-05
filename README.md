@@ -4,8 +4,8 @@ In this project, we will implement two Spring Boot applications, one using Sprin
 
 ## Applications
 
-- ### [spring-boot-greetings-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/master/springboot-greetings-api-web)
-- ### [spring-boot-greetings-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/master/springboot-greetings-api-reactive)
+- ### [spring-boot-greetings-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-web)
+- ### [spring-boot-greetings-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-reactive)
 
 ## Prerequisites
 
