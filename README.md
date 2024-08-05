@@ -1,9 +1,22 @@
 # web-reactive-jvm-native-cds-aot-virtual-threads
 
-## spring-boot-greetings-web
+In this project, we will implement two Spring Boot applications, one using Spring Web and the other Spring Reactive, and build JVM and Native Docker images for different configurations - enabling or not virtual threads, CDS, and AOT optimizations - and compare them.
 
-Spring Initializr [link](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.2&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-web&name=spring-boot-greetings-api-web&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapiweb&dependencies=web)
+## Applications
 
-## spring-boot-greetings-rective
+- ### [spring-boot-greetings-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/master/springboot-greetings-api-web)
+- ### [spring-boot-greetings-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/master/springboot-greetings-api-reactive)
 
-Spring Initializr [link](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.2&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-reactive&name=spring-boot-greetings-api-reactive&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapireactive&dependencies=webflux)
+## Prerequisites
+
+- [`Java 21+`](https://www.oracle.com/java/technologies/downloads/#java21)
+- [`Docker`](https://www.docker.com/)
+
+## Docker Images
+
+The application’s JVM and Native Docker images can be found in [this Docker Hub link](https://hub.docker.com/search?q=ivanfranchin).
+
+## Bash scripts
+
+- **docker-build.sh**: this script builds all Docker images
+- **remove-docker-images.sh**: this script removes all Docker images
