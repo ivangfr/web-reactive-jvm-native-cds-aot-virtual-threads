@@ -18,7 +18,7 @@ On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-C
 
 ## Docker Images
 
-The application’s JVM and Native Docker images can be found in [this Docker Hub link](https://hub.docker.com/search?q=ivanfranchin).
+The application's JVM and native Docker images can be found at [this Docker Hub link](https://hub.docker.com/u/ivanfranchin).
 
 ## Bash scripts
 
