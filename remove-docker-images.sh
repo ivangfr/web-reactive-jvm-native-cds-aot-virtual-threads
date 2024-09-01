@@ -2,18 +2,20 @@
 
 JAVA_VERSION=21
 SPRING_BOOT_VERSION=3.3.2
+QUARKUS_VERSION=3.13.2
+MICRONAUT_VERSION=4.5.1
 
 echo "-----------------------------"
 echo "SPRING-BOOT-GREETINGS-API-WEB"
 echo "-----------------------------"
 
 docker rmi \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot-vt \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native \
-  spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native-vt
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds \
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot \
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot-vt \
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native \
+  ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native-vt
 
 echo
 echo "----------------------------------"
@@ -21,7 +23,43 @@ echo "SPRING-BOOT-GREETINGS-API-REACTIVE"
 echo "----------------------------------"
 
 docker rmi \
-  spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm \
-  spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds \
-  spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot \
-  spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native
+  ivanfranchin/spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds \
+  ivanfranchin/spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm-cds-aot \
+  ivanfranchin/spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native
+
+echo
+echo "-------------------------"
+echo "QUARKUS-GREETINGS-API-WEB"
+echo "-------------------------"
+
+docker rmi \
+  ivanfranchin/quarkus-greetings-api-web:${QUARKUS_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/quarkus-greetings-api-web:${QUARKUS_VERSION}-${JAVA_VERSION}-native
+
+echo
+echo "------------------------------"
+echo "QUARKUS-GREETINGS-API-REACTIVE"
+echo "------------------------------"
+
+docker rmi \
+  ivanfranchin/quarkus-greetings-api-reactive:${QUARKUS_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/quarkus-greetings-api-reactive:${QUARKUS_VERSION}-${JAVA_VERSION}-native
+
+echo
+echo "---------------------------"
+echo "MICRONAUT-GREETINGS-API-WEB"
+echo "---------------------------"
+
+docker rmi \
+  ivanfranchin/micronaut-greetings-api-web:${MICRONAUT_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/micronaut-greetings-api-web:${MICRONAUT_VERSION}-${JAVA_VERSION}-native
+
+echo
+echo "--------------------------------"
+echo "MICRONAUT-GREETINGS-API-REACTIVE"
+echo "--------------------------------"
+
+docker rmi \
+  ivanfranchin/micronaut-greetings-api-reactive:${MICRONAUT_VERSION}-${JAVA_VERSION}-jvm \
+  ivanfranchin/micronaut-greetings-api-reactive:${MICRONAUT_VERSION}-${JAVA_VERSION}-native

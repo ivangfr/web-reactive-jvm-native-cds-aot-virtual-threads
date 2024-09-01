@@ -1,6 +1,10 @@
 # web-reactive-jvm-native-cds-aot-virtual-threads
 
-In this project, we will implement two Spring Boot applications, one using Spring Web and the other Spring Reactive, and build JVM and Native Docker images for different configurations - enabling or not virtual threads, CDS, and AOT optimizations - and compare them.
+In this project, we will create six applications using [`Spring Boot`](https://docs.spring.io/spring-boot/index.html), [`Quarkus`](https://quarkus.io/), and [`Micronaut`](https://micronaut.io/) frameworks.
+
+For each framework, we will implement one app with traditional blocking `Web` using `Apache Tomcat` and another app with non-blocking `Reactive` using `Netty`. We will also build both `JVM` and `Native` Docker images for the applications.
+
+For the `Spring Boot` apps, we will build additional Docker images with different configurations, including enabling or not some Java optimizations like `Virtual Threads` ([`JEP 444`](https://openjdk.org/jeps/444)), `CDS` ([`JEP 310`](https://openjdk.org/jeps/310)), and `AOT` ([`JEP 295`](https://openjdk.org/jeps/295)).
 
 ## Proof-of-Concepts & Articles
 
@@ -13,8 +17,20 @@ On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-C
 
 ## Applications
 
-- ### [spring-boot-greetings-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-web)
-- ### [spring-boot-greetings-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-reactive)
+- ### [spring-boot-greetings-api-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-web)
+- ### [spring-boot-greetings-api-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/spring-boot-greetings-api-reactive)
+- ### [quarkus-greetings-api-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/quarkus-greetings-api-web)
+- ### [quarkus-greetings-api-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/quarkus-greetings-api-reactive)
+- ### [micronaut-greetings-api-web](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/micronaut-greetings-api-web)
+- ### [micronaut-greetings-api-rective](https://github.com/ivangfr/web-reactive-jvm-native-cds-aot-virtual-threads/tree/main/micronaut-greetings-api-reactive)
+
+## Latest Framework Version Used
+
+| Framework   | Version |
+|-------------|---------|
+| Quarkus     | 3.12.2  |
+| Micronaut   | 4.5.1   |
+| Spring Boot | 3.3.2   |
 
 ## Prerequisites
 
@@ -27,5 +43,7 @@ The application's JVM and native Docker images can be found at [this Docker Hub 
 
 ## Bash scripts
 
-- **docker-build.sh**: this script builds all Docker images
+- **docker-build-spring-boot.sh**: this script builds Spring Boot Docker images
+- **docker-build-quarkus.sh**: this script builds Quarkus Docker images
+- **docker-build-micronaut.sh**: this script builds Micronaut Docker images
 - **remove-docker-images.sh**: this script removes all Docker images

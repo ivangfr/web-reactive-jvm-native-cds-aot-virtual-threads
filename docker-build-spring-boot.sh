@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+SECONDS=0
+
 JAVA_VERSION=21
 SPRING_BOOT_VERSION=3.3.2
 
@@ -73,3 +75,8 @@ cd spring-boot-greetings-api-reactive
   -Dspring-boot.build-image.imageName=ivanfranchin/spring-boot-greetings-api-reactive:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-native
 
 cd ..
+
+duration=$SECONDS
+
+echo "=========="
+echo "Script executed in $(($duration / 60)) minutes and $(($duration % 60)) seconds."
