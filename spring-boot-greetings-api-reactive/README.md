@@ -3,7 +3,7 @@
 
 ## Application
 
-[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Reacive Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.1&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-reactive&name=spring-boot-greetings-api-reactive&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapireactive&dependencies=webflux)
+[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Reacive Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-reactive&name=spring-boot-greetings-api-reactive&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapireactive&dependencies=webflux)
 ```
 GET /greetings[?name=...]
 ```

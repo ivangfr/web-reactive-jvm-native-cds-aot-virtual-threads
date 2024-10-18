@@ -3,7 +3,7 @@
 
 ## Application
 
-[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.1&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-web&name=spring-boot-greetings-api-web&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapiweb&dependencies=web)
+[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.3.4&packaging=jar&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-web&name=spring-boot-greetings-api-web&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapiweb&dependencies=web)
 ```
 GET /greetings[?name=...]
 ```
