@@ -52,7 +52,7 @@ The application's JVM and native Docker images can be found at [this Docker Hub 
 
 ## Bash scripts
 
-- **docker-build-spring-boot.sh**: this script builds Spring Boot Docker images
-- **docker-build-quarkus.sh**: this script builds Quarkus Docker images
-- **docker-build-micronaut.sh**: this script builds Micronaut Docker images
-- **remove-docker-images.sh**: this script removes all Docker images
+- **build-docker-images-spring-boot.sh**: script to build Spring Boot Docker images
+- **build-docker-images-quarkus.sh**: script to build Quarkus Docker images
+- **build-docker-images-micronaut.sh**: script to build Micronaut Docker images
+- **remove-docker-images.sh**: script to remove all Docker images
