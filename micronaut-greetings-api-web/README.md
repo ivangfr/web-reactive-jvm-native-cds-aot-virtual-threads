@@ -1,5 +1,5 @@
 # web-reactive-jvm-native-cds-aot-virtual-threads
-## `> micronaut-greeting-api-web`
+## `> micronaut-greetings-api-web`
 
 ## Application
 
@@ -10,16 +10,16 @@ GET /greetings[?name=...]
 
 ## Running application
 
-- Open a terminal and navigate to `web-reactive-jvm-native-cds-aot-virtual-threads/micronaut-greeting-api-web` folder
+- Open a terminal and navigate to the `micronaut-greetings-api-web` directory within the `web-reactive-jvm-native-cds-aot-virtual-threads` project;
 
-- Run the command below to start the application
+- Run the command below to start the application:
   ```
   ./mvnw clean mn:run
   ```
 
-- A simple test can be done by opening a new terminal and running
+- A simple test can be done by opening a new terminal and running:
   ```
   curl -i "localhost:8080/greetings?name=Ivan"
   ```
 
-- To stop the application, press `Ctrl+C` in its terminal
+- To stop the application, press `Ctrl+C` in the terminal where it is running.
