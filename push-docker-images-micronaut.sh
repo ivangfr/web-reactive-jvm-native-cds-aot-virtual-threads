@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 JAVA_VERSION=21
-MICRONAUT_VERSION=4.6.3
+MICRONAUT_VERSION=4.7.6
 
 docker push ivanfranchin/micronaut-greetings-api-web:${MICRONAUT_VERSION}-${JAVA_VERSION}-jvm
 docker push ivanfranchin/micronaut-greetings-api-web:${MICRONAUT_VERSION}-${JAVA_VERSION}-native
