@@ -41,7 +41,7 @@ On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-C
 |-------------|---------|
 | Quarkus     | 3.19.3  |
 | Micronaut   | 4.7.6   |
-| Spring Boot | 3.4.3   |
+| Spring Boot | 3.5.3   |
 
 ## Prerequisites
 
