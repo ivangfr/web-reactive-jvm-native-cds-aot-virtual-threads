@@ -3,7 +3,7 @@
 
 ## Application
 
-[`Micronaut`](https://micronaut.io/) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://micronaut.io/launch?type=DEFAULT&name=micronaut-greetings-api-web&package=com.ivanfranchin.micronautgreetingsapiweb&javaVersion=JDK_21&lang=JAVA&build=MAVEN&test=JUNIT&version=4.7.6)
+[`Micronaut`](https://micronaut.io/) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://micronaut.io/launch?type=DEFAULT&name=micronaut-greetings-api-web&package=com.ivanfranchin.micronautgreetingsapiweb&javaVersion=JDK_21&lang=JAVA&build=MAVEN&test=JUNIT&version=4.9.1)
 ```text
 GET /greetings[?name=...]
 ```
