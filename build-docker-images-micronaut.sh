@@ -2,7 +2,7 @@
 
 SECONDS=0
 
-JAVA_VERSION=21
+JAVA_VERSION=25
 MICRONAUT_VERSION=4.10.7
 
 echo "---------------------------"

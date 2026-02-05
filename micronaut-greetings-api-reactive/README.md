@@ -3,7 +3,7 @@
 
 ## Application
 
-[`Micronaut`](https://micronaut.io/) Java Reactive Web application that exposes a simple endpoint for greetings. [[Start project link]](https://micronaut.io/launch/?type=DEFAULT&name=micronaut-greetings-api-reactive&package=com.ivanfranchin.micronautgreetingsapireactive&javaVersion=JDK_21&lang=JAVA&build=MAVEN&test=JUNIT&features=reactor&version=4.10.7)
+[`Micronaut`](https://micronaut.io/) Java Reactive Web application that exposes a simple endpoint for greetings. [[Start project link]](https://micronaut.io/launch/?type=DEFAULT&name=micronaut-greetings-api-reactive&package=com.ivanfranchin.micronautgreetingsapireactive&javaVersion=JDK_25&lang=JAVA&build=MAVEN&test=JUNIT&features=reactor&version=4.10.7)
 ```text
 GET /greetings[?name=...]
 ``` 
@@ -33,13 +33,13 @@ GET /greetings[?name=...]
     ```bash
     docker run --rm --name micronaut-greetings-api-reactive \
       -p 8080:8080 \
-      ivanfranchin/micronaut-greetings-api-reactive:4.10.7-21-jvm
+      ivanfranchin/micronaut-greetings-api-reactive:4.10.7-25-jvm
     ```
   - Native Mode
     ```bash
     docker run --rm --name micronaut-greetings-api-reactive \
       -p 8080:8080 \
-      ivanfranchin/micronaut-greetings-api-reactive:4.10.7-21-native
+      ivanfranchin/micronaut-greetings-api-reactive:4.10.7-25-native
     ```
 
 - A simple test can be done by opening a new terminal and running:
