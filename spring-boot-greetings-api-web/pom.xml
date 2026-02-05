@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <BP_SPRING_AOT_ENABLED>false</BP_SPRING_AOT_ENABLED>
         <BP_JVM_CDS_ENABLED>false</BP_JVM_CDS_ENABLED>
     </properties>

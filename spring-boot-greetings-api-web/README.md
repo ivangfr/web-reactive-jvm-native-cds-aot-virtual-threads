@@ -3,7 +3,7 @@
 
 ## Application
 
-[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=4.0.2&packaging=jar&configurationFileFormat=properties&jvmVersion=21&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-web&name=spring-boot-greetings-api-web&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapiweb&dependencies=web)
+[`Spring Boot`](https://docs.spring.io/spring-boot/index.html) Java Web application that exposes a simple endpoint for greetings. [[Start project link]](https://start.spring.io/#!type=maven-project&language=java&platformVersion=4.0.2&packaging=jar&configurationFileFormat=properties&jvmVersion=25&groupId=com.ivanfranchin&artifactId=spring-boot-greetings-api-web&name=spring-boot-greetings-api-web&description=Demo%20project%20for%20Spring%20Boot&packageName=com.ivanfranchin.springbootgreetingsapiweb&dependencies=web)
 ```text
 GET /greetings[?name=...]
 ```
@@ -33,13 +33,13 @@ GET /greetings[?name=...]
     ```bash
     docker run --rm --name spring-boot-greetings-api-web \
       -p 8080:8080 \
-      ivanfranchin/spring-boot-greetings-api-web:4.0.2-21-jvm
+      ivanfranchin/spring-boot-greetings-api-web:4.0.2-25-jvm
     ```
   - Native Mode
     ```bash
     docker run --rm --name spring-boot-greetings-api-web \
       -p 8080:8080 \
-      ivanfranchin/spring-boot-greetings-api-web:4.0.2-21-native
+      ivanfranchin/spring-boot-greetings-api-web:4.0.2-25-native
     ```
 
 - A simple test can be done by opening a new terminal and running:

@@ -2,7 +2,7 @@
 
 SECONDS=0
 
-JAVA_VERSION=21
+JAVA_VERSION=25
 SPRING_BOOT_VERSION=4.0.2
 
 echo "-----------------------------"

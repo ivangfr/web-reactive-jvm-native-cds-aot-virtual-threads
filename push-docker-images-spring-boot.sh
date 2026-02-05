@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-JAVA_VERSION=21
+JAVA_VERSION=25
 SPRING_BOOT_VERSION=4.0.2
 
 podman push ivanfranchin/spring-boot-greetings-api-web:${SPRING_BOOT_VERSION}-${JAVA_VERSION}-jvm
