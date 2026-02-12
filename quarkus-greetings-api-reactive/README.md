@@ -33,13 +33,13 @@ GET /greetings[?name=...]
     ```bash
     docker run --rm --name quarkus-greetings-api-reactive \
       -p 8080:8080 \
-      ivanfranchin/quarkus-greetings-api-reactive:3.31.1-21-jvm
+      ivanfranchin/quarkus-greetings-api-reactive:3.31.1-25-jvm
     ```
   - Native Mode
     ```bash
     docker run --rm --name quarkus-greetings-api-reactive \
       -p 8080:8080 \
-      ivanfranchin/quarkus-greetings-api-reactive:3.31.1-21-native
+      ivanfranchin/quarkus-greetings-api-reactive:3.31.1-25-native
     ```
 
 - A simple test can be done by opening a new terminal and running:

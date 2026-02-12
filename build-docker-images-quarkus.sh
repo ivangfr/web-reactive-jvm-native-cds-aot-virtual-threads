@@ -2,7 +2,7 @@
 
 SECONDS=0
 
-JAVA_VERSION=21
+JAVA_VERSION=25
 QUARKUS_VERSION=3.31.1
 
 echo "-------------------------"
@@ -10,8 +10,6 @@ echo "QUARKUS-GREETINGS-API-WEB"
 echo "-------------------------"
 
 cd quarkus-greetings-api-web
-
-./mvnw clean package
 
 # == JVM ==
 
@@ -35,8 +33,6 @@ echo "QUARKUS-GREETINGS-API-REACTIVE"
 echo "------------------------------"
 
 cd quarkus-greetings-api-reactive
-
-./mvnw clean package
 
 # == JVM ==
 

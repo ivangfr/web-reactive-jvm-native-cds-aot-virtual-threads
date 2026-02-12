@@ -16,10 +16,6 @@ public class GreetingsController {
     private static final Logger log = LoggerFactory.getLogger(GreetingsController.class);
     private static final AtomicInteger counter = new AtomicInteger(1);
 
-    static {
-        log.info("Available processors (CPUs): {}", Runtime.getRuntime().availableProcessors());
-    }
-
     private final GreetingsService greetingsService;
 
     public GreetingsController(GreetingsService greetingsService) {
