@@ -20,6 +20,7 @@ On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-C
 - \[**Medium**\] [**Spring Boot 3.4.3 Benchmark: Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native**](https://medium.com/@ivangfr/spring-boot-3-4-3-benchmark-web-reactive-cds-aot-virtual-threads-jvm-and-native-47bff836992e)
 - \[**Medium**\] [**Spring Boot 3.5.3 Benchmark: Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native**](https://medium.com/@ivangfr/spring-boot-3-5-3-benchmark-web-reactive-cds-aot-virtual-threads-jvm-and-native-87baf806c5bc)
 - \[**Medium**\] [**Spring Boot 4.0.2 Benchmark: Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native**](https://medium.com/@ivangfr/spring-boot-4-0-2-benchmark-web-reactive-cds-aot-virtual-threads-jvm-and-native-19ed5a10c8cd)
+- \[**Medium**\] [**Spring Boot 4.0.2 Benchmark (Java 21 vs. 25): Web, Reactive, CDS, AOT, Virtual Threads, JVM, and Native**](https://medium.com/@ivangfr/spring-boot-4-0-2-benchmark-java-21-vs-25-web-reactive-cds-aot-v-threads-jvm-and-native-ffda008c6033)
 
 ### Java Frameworks Performance Benchmark
 
