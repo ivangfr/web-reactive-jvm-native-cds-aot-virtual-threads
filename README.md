@@ -8,7 +8,7 @@ For the `Spring Boot` apps, we will build additional Docker images with differen
 
 ## Support
 
-If you find this tool helpful, consider buying me a coffee to support future development!
+If you find this project helpful, consider buying me a coffee to support future development. Thanks for the support! ❤️
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ivan.franchin)
 
