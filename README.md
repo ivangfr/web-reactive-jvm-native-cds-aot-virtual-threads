@@ -6,12 +6,6 @@ For each framework, we will implement one app with traditional blocking `Web` us
 
 For the `Spring Boot` apps, we will build additional Docker images with different configurations, including enabling or not some Java optimizations like `Virtual Threads` ([`JEP 444`](https://openjdk.org/jeps/444)), `CDS` ([`JEP 310`](https://openjdk.org/jeps/310)), and `AOT` ([`JEP 295`](https://openjdk.org/jeps/295)).
 
-## Support
-
-If you find this project helpful, consider buying me a coffee to support future development. Thanks you! ❤️
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ivan.franchin)
-
 ## Proof-of-Concepts & Articles
 
 On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-Concepts (PoCs) and articles. You can easily search for the technology you are interested in using the filter. Who knows, perhaps I have already implemented a PoC or written an article about what you are looking for.
@@ -69,3 +63,9 @@ The application's JVM and native Docker images can be found at [this Docker Hub 
 - **build-docker-images-quarkus.sh**: script to build Quarkus Docker images
 - **build-docker-images-micronaut.sh**: script to build Micronaut Docker images
 - **remove-docker-images.sh**: script to remove all Docker images
+
+## Support
+
+If you find this project helpful, consider buying me a coffee to support future development. Thanks you! ❤️
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ivan.franchin)
