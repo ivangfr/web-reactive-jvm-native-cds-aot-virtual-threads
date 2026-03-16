@@ -66,6 +66,6 @@ The application's JVM and native Docker images can be found at [this Docker Hub 
 
 ## Support
 
-If you find this project helpful, consider buying me a coffee to support future development. Thanks you! ❤️
+If you find this useful, consider buying me a coffee:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ivan.franchin)
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/ivan.franchin)
