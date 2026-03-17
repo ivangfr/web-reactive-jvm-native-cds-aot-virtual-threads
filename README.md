@@ -1,5 +1,9 @@
 # web-reactive-jvm-native-cds-aot-virtual-threads
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ivan.franchin-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/ivan.franchin)
+
+
 In this project, we will create six applications using [`Spring Boot`](https://docs.spring.io/spring-boot/index.html), [`Quarkus`](https://quarkus.io/), and [`Micronaut`](https://micronaut.io/) frameworks.
 
 For each framework, we will implement one app with traditional blocking `Web` using `Apache Tomcat` and another app with non-blocking `Reactive` using `Netty`. We will also build both `JVM` and `Native` Docker images for the applications.
@@ -68,4 +72,8 @@ The application's JVM and native Docker images can be found at [this Docker Hub 
 
 If you find this useful, consider buying me a coffee:
 
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/ivan.franchin)
+<a href="https://buymeacoffee.com/ivan.franchin"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
