@@ -4,8 +4,6 @@ import com.ivanfranchin.micronautgreetingsapiweb.service.GreetingsService;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.QueryValue;
-import io.micronaut.scheduling.TaskExecutors;
-import io.micronaut.scheduling.annotation.ExecuteOn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +21,6 @@ public class GreetingsController {
         this.greetingsService = greetingsService;
     }
 
-    @ExecuteOn(TaskExecutors.IO)
     @Get
     public String greeting(@QueryValue(defaultValue = "World") String name) {
         int id = counter.getAndIncrement();

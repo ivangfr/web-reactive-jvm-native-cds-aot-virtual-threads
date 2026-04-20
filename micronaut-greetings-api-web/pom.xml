@@ -17,7 +17,7 @@
         <jdk.version>25</jdk.version>
         <release.version>25</release.version>
         <micronaut.version>4.10.7</micronaut.version>
-        <micronaut.runtime>netty</micronaut.runtime>
+        <micronaut.runtime>tomcat</micronaut.runtime>
         <micronaut.aot.enabled>false</micronaut.aot.enabled>
         <micronaut.aot.packageName>com.ivanfranchin.micronautgreetingsapiweb.aot.generated</micronaut.aot.packageName>
         <exec.mainClass>com.ivanfranchin.micronautgreetingsapiweb.Application</exec.mainClass>
@@ -32,13 +32,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.micronaut</groupId>
-            <artifactId>micronaut-http-server-netty</artifactId>
+            <groupId>io.micronaut.serde</groupId>
+            <artifactId>micronaut-serde-jackson</artifactId>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>io.micronaut.serde</groupId>
-            <artifactId>micronaut-serde-jackson</artifactId>
+            <groupId>io.micronaut.servlet</groupId>
+            <artifactId>micronaut-http-server-tomcat</artifactId>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -97,6 +97,17 @@
                             <groupId>io.micronaut.serde</groupId>
                             <artifactId>micronaut-serde-processor</artifactId>
                             <version>${micronaut.serialization.version}</version>
+                            <exclusions>
+                                <exclusion>
+                                    <groupId>io.micronaut</groupId>
+                                    <artifactId>micronaut-inject</artifactId>
+                                </exclusion>
+                            </exclusions>
+                        </path>
+                        <path>
+                            <groupId>io.micronaut.servlet</groupId>
+                            <artifactId>micronaut-servlet-processor</artifactId>
+                            <version>${micronaut.servlet.version}</version>
                             <exclusions>
                                 <exclusion>
                                     <groupId>io.micronaut</groupId>

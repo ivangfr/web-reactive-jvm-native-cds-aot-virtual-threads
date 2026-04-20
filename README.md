@@ -52,6 +52,30 @@ On [ivangfr.github.io](https://ivangfr.github.io), I have compiled my Proof-of-C
 | Micronaut   | 4.10.7  |
 | Spring Boot | 4.0.2   |
 
+## Thread Configuration for Web Apps
+
+For fair benchmark comparison, the blocking Web MVC applications (`spring-boot-greetings-api-web`, `quarkus-greetings-api-web`, and `micronaut-greetings-api-web`) are configured with 200 threads:
+
+| Framework   | Configuration Property | Default (without config) |
+|-------------|------------------------|--------------------------|
+| Spring Boot | Tomcat default | 200 |
+| Quarkus     | `quarkus.thread-pool.max-threads=200` | Math.max(8×CPU, 200) |
+| Micronaut   | Tomcat default | 200 |
+
+This ensures all three frameworks use the same number of worker threads during benchmarks.
+
+## Virtual Threads Configuration for Web Apps
+
+Virtual threads are disabled in all blocking applications Web MVC applications (`spring-boot-greetings-api-web`, `quarkus-greetings-api-web`, and `micronaut-greetings-api-web`) to ensure fair benchmark comparison. The table below shows the default virtual threads setting for each framework:
+
+| Framework   | Virtual Threads | Configuration |
+|-------------|----------------|---------------|
+| Spring Boot | Disabled by default | - |
+| Quarkus     | Disabled by default | - |
+| Micronaut   | Enabled by default  | `micronaut.servlet.enable-virtual-threads=false` |
+
+This ensures all three Web applications use regular platform threads (200 max by default) during benchmarks.
+
 ## Prerequisites
 
 - [`Java 25`](https://www.oracle.com/java/technologies/downloads/#java25) or higher;
